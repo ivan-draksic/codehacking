@@ -47,13 +47,6 @@
 	
 	{!! Form::close() !!}
 
-		</div>
-
-	</div>
-
-
-	<div class="form-group">
-	
 	{!! Form::open(['method'=>'DELETE', 'action'=> ['AdminPostsController@destroy', $post->id]]) !!}
 
 		<div class="form-group">
@@ -63,6 +56,15 @@
 		</div>
 
 	{!! Form::close() !!}
+
+		</div>
+
+	</div>
+
+
+	<div class="form-group">
+	
+	
 
 	</div>
 

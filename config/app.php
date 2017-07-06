@@ -157,6 +157,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        // added by me
+
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+        Unisharp\Laravelfilemanager\LaravelFilemanagerServiceProvider::class,
     ],
 
     /*
@@ -204,6 +210,9 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+
+//        added by me
+        'Image' => Intervention\Image\Facades\Image::class,
     ],
 
 ];
